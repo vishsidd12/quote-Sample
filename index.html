@@ -1,0 +1,38 @@
+<html>
+  <head>
+     <title>NodeJS Sample</title>
+  </head>
+
+
+  <body>
+     <br><br><br><br><br>
+     <div>
+         <h3 id="quote">HI print quote here</h3>
+     </div>
+     
+     <script>
+       var salutationarray = [
+         "Hi this is Shyam",
+         "Hi this is Hariharan",
+         "Hi this is Suchitra",
+         "Hi this is Valiachan",
+         "Hi this is Vishnu",
+         "Hi this is Siddhu",
+         "Hi this is Sunitha",
+         "Hi this is ammuman",
+         "Hi this is appupan",
+         "Hi this is Muthu",
+         "Hi this is Munna"
+       ];
+
+        var randonNum = Math.floor((Math.random()*10)+1);
+        document.getElementById("quote").innerHTML=salutationarray[randonNum-1];
+
+     </script>
+
+
+  </body>
+
+
+
+</html>
